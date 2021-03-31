@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .flex-container
+        {
+            display:inline-flex;
+            /* text-align: center; */
+            flex-wrap:wrap;
+            background-color: dodgerblue;
+            justify-content:center;
+            flex-direction: row;
+            
+
+        }
+        .flex-container > div
+        {
+            background-color:white;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="card">
+        <h2>hello</h2>
+
+    </div>
+     <form action="">
+        <input type="text">
+        <input type="submit">
+    </form>
+    <a href="/google.com">click this link</a> -->
+
+    <h2>Random User Cards</h2>
+    <div id="card"></div>
+    
+    <script type="text/javascript" src="/api.js"></script>
+</body>
+</html>
